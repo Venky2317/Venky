@@ -11,7 +11,7 @@ module.exports = {
     botname: process.env.BotName || "Venky's Bot",
     footer: process.env.Footer || "© Powered By Nano Tech ",
     prefa: process.env.Prefix || ".",
-    themeemoji: process.env.ThemeEmoji || " ",
+    themeemoji: process.env.ThemeEmoji || "🐼",
 
     /**
      * owner details and parameters
@@ -26,7 +26,7 @@ module.exports = {
     author: process.env.Author || "@PikaBotz",
     packname: process.env.PackName || "Queen Anya v2 MD",
     socialLink: process.env.Web || "https://github.com/PikaBotz",
-    groupLink: process.env.GcLink || " ",
+    groupLink: process.env.GcLink || "https://chat.whatsapp.com/E490r0wSpSr89XkCWeGtnX",
     warns: Number(process.env.Warn_Limits) || 3,
     cooldown: Number(process.env.Cooldown_Timer_Seconds) || 5, // default cooldown time per command in seconds
     mongoUrl: process.env.MongoDB || "mongodb+srv://Venky2317:<db_password>@cluster0.vhfer.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0",
